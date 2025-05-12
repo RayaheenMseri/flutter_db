@@ -1,16 +1,17 @@
-# flutter_db
+# Notes App (Local DB with Drift)
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+This is a simple Notes App built using Flutter with local storage managed by `drift`. The app allows users to add, view, and delete notes with persistent storage. Drift provides a powerful and flexible ORM for managing SQLite databases in Flutter apps.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+* **Add Note**: Allows users to add new notes with titles and content.
+* **View Notes**: Displays a list of all stored notes.
+* **Delete Note**: Enables deletion of any existing note.
+* **Local Storage**: Notes are stored persistently in a local SQLite database using Drift.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Technologies Used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* **Flutter**: Framework for building the mobile application.
+* **Drift**: An SQLite-based persistence library for Flutter, providing easy-to-use ORM features.
